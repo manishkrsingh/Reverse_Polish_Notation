@@ -3,47 +3,6 @@ import java.util.Stack;
 
 public class Calculator
 {
-/*
-	public static int calc(String[] args)
-	{
-		
-		Stack<Integer> results = new Stack<Integer>();
-		for(int i=0;i<args.length;i++)
-		 {
-			 String input = args[i];
-			// If the command is an operator, pop the arguments and push the result
-			 if(input.equals("+"))
-			{
-			   results.push(results.pop() + results.pop());
-			}
-			 else if(input.equals("-"))
-			{
-			   Integer arg2 = results.pop();
-			   results.push(results.pop() - arg2);
-			}
-			 else if(input.equals("*") || input.equals("x"))
-			{
-			   results.push(results.pop() * results.pop());
-			}
-			 else if(input.equals("/"))
-			{
-			   Integer arg2 = results.pop();
-			   results.push(results.pop() / arg2);
-			}
-			 /*else if(input.equals("Q") || input.equals("q"))
-			{
-				 //done =true;
-			}
-			 else if(CheckFor.isNumber(input))
-			{
-			  // Not an operator—push the input value
-			   results.push(Integer.parseInt(input));
-			}
-			
-		 }
-		 return results.pop();
-	}*/
-	
 	public static String calc(String[] args)
 	{
 		
