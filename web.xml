@@ -1,0 +1,11 @@
+<web-app>
+	<servlet>
+	<servlet-name>Add</servlet-name>
+	<servlet-class>RPN</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+	<servlet-name>Add</servlet-name>
+	<url-pattern>/rpn</url-pattern>
+	</servlet-mapping>
+</web-app>
